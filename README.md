@@ -1,2 +1,2 @@
 # k8s
-k8s 
+ansible install k8s 

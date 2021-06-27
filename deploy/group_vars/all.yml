@@ -18,9 +18,9 @@ k8s:
   baseurl: https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64/
   gpgkey: "https://mirrors.aliyun.com/kubernetes/yum/doc/yum-key.gpg https://mirrors.aliyun.com/kubernetes/yum/doc/rpm-package-key.gpg"
   pod_netword: 10.244.0.0
-  kubectl: kubectl-1.16.0-0
-  kubeadm: kubeadm-1.16.0-0
-  kubelet: kubelet-1.16.0-0
+  kubectl: kubectl-1.20.0-0
+  kubeadm: kubeadm-1.20.0-0
+  kubelet: kubelet-1.20.0-0
   flannel:
     path: /tmp/kube-flannel.yml
     image_url: quay.io
