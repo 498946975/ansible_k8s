@@ -7,12 +7,12 @@
     - role: k8s_env
       become: yes
 
-- hosts: master
+- hosts: k8s-master
   roles:
     - role: k8s_master
       become: yes
 
-- hosts: node
+- hosts: k8s-node
   roles:
     - role: k8s_node
       become: yes

@@ -1,5 +1,5 @@
 docker:
-  version: docker-ce-18.09.9-3.el7
+  version: docker-ce-20.10.7-3.el7
   repo: https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/centos/docker-ce.repo
   registry_mirrors: https://registry.docker-cn.com
   remove_list:
@@ -12,8 +12,8 @@ docker:
     - docker-logrotate
     - docker-engine
 k8s:
-  version: v1.16.0
-  master_ip: 192.168.31.76
+  version: v1.20.0
+  master_ip: 192.168.100.100
   image_repository: registry.aliyuncs.com/google_containers
   baseurl: https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64/
   gpgkey: "https://mirrors.aliyun.com/kubernetes/yum/doc/yum-key.gpg https://mirrors.aliyun.com/kubernetes/yum/doc/rpm-package-key.gpg"
