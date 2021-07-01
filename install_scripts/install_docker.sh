@@ -43,7 +43,7 @@ systemctl daemon-reload
 systemctl restart docker
 
 # 下载docker-compose
-curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` -o /usr/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/1.29.2/docker-compose-`uname -s`-`uname -m` -o /usr/bin/docker-compose
 
 #修改docker-compose的权限
 chmod +x /usr/bin/docker-compose
