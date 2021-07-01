@@ -1,7 +1,7 @@
 #/bin/bash
 # 使用root用户安装docker
 
-DOCKER_VERSION=docker-ce-18.09.9-3.el7
+DOCKER_VERSION=docker-ce-20.10.7-3.el7
 DOCKER_REGISTRY=https://registry.docker-cn.com
 YUN_REPO=https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/centos/docker-ce.repo
 
