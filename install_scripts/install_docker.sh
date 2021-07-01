@@ -34,8 +34,7 @@ systemctl enable docker && systemctl start docker
 # 设置镜像仓库源
 cat <<EOF >/etc/docker/daemon.json
 {
- "registry-mirrors": ["${DOCKER_REGISTRY}"],
- "exec-opts": ["native.cgroupdriver=systemd"]
+  "registry-mirrors": ["https://z0u8mwno.mirror.aliyuncs.com"]
 }
 EOF
 
