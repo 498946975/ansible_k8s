@@ -1,7 +1,8 @@
 docker:
   version: docker-ce-20.10.7-3.el7
   repo: https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/centos/docker-ce.repo
-  registry_mirrors: https://registry.docker-cn.com
+  registry_mirrors: https://z0u8mwno.mirror.aliyuncs.com
+  insecure_registries: http://harbor.liuxing.com
   remove_list:
     - docker
     - docker-ce

@@ -1,4 +1,5 @@
 {
  "registry-mirrors": ["{{ docker.registry_mirrors }}"],
- "exec-opts": ["native.cgroupdriver=systemd"]
+ "exec-opts": ["native.cgroupdriver=systemd"],
+ "insecure-registries":["{{ docker.insecure_registries }}"]
 }
